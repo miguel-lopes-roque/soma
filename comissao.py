@@ -10,6 +10,7 @@ def comissaoSalario():
 
 
 if __name__=="__main__":
-    nome, Comissao, Vendas, pagamentoEsperado = comissaoSalario()     
+    nome, Comissao, pagamentoEsperado = comissaoSalario()     
     strg = "{0} obteve R$ {1:.2f} de comissao e vai receber{2:.2f}".format(nome, Comissao, pagamentoEsperado)
     print(strg)
+    
